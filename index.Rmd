@@ -1,0 +1,5 @@
+---
+title: "Stock Prediction through Time Series"
+site: distill::distill_website
+listing: posts
+---

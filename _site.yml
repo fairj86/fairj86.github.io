@@ -1,0 +1,12 @@
+name: "fairj86.github.io"
+title: "Stock Prediction through Time Series"
+description: |
+  Stock Prediction through Time Series
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
