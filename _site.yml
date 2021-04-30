@@ -3,6 +3,7 @@ title: "Stock Prediction through Time Series"
 description: |
   Stock Prediction through Time Series
 output_dir: "docs"
+base_url: https://fairj86.github.io/fairj86.github.io/
 navbar:
   right:
     - text: "Home"

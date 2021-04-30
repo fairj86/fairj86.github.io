@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-04-29-yes-i-have-a-blog/",
+    "title": "Yes I have a blog",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "name:John Fair",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-29",
+    "categories": [],
+    "contents": "\r\n#First Blog post My senior project is a twofold assignment for me. I am a transfer student to BYU—Idaho and so I have a bit of a patchwork of courses and at my old school they didn’t put an emphasis on learning the Python language. During my internship, I found out that this fact would put me at a disadvantage from other new graduates, so I decided to utilize and bulk up my understanding of the language during my project.\r\nI have recently been very interested in learning more about stock and investments. I was taught the concept of Time Series and found that this could be a great topic with real life applications in my future. I am going to use stock datasets for 6 of the most well-known companies: Apple, Amazon, Disney, Google, Microsoft, and Walmart. My main question is figuring out which of these companies would be the best choice to invest in and use time series methodology to see where these stocks could go in the future.\r\nWhile researching time series for stock predictions the one topic that seemed to be commonly referred to was Recurrent Neural Networks and Long Short Term Memory (commonly cited as “LSTM”).\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-04-30T18:04:57-05:00",
+    "input_file": "yes-i-have-a-blog.utf8.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Stock Prediction through Time Series",
+    "description": "Welcome to our new blog, Stock Prediction through Time Series. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-04-29",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-04-29T15:16:25-05:00",
+    "input_file": {}
+  }
+]
