@@ -1,20 +1,16 @@
 ---
-title: "Yes I have a blog"
+title: "Intro to Senior Project"
 description: |
-  A short description of the post.
+  Why Python and Stock Predictions?
 author:
-  - name:John Fair
+  - John Fair
 date: 04-29-2021
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-#First Blog post
+# Why?
 My senior project is a twofold assignment for me. I am a transfer student to BYU—Idaho and so I have taken a patchwork of courses and at my old school they did not put an emphasis on learning the Python language. During my internship, I found out that this fact would put me a disadvantage from other new graduates, so I decided to utilize and bulk up my understanding of the language during my project.
 
 I have recently been interested in learning more about stock and investments. I was taught the concept of Time Series and find that this could be a great topic with real life applications in my future. I am going to use stock datasets for 6-7 of the most well-known companies: Apple, Amazon, Disney, Google, Microsoft, Nike, and Walmart. My main question is figuring out which of these companies would the best choice to invest in and use time series methodology to see where these stocks could go in the future.
@@ -27,7 +23,10 @@ One crowning feature of yfinance is that you can get highly concentrated data, a
 
 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo
 
-One thing to note is that the 1m data is only retrievable for the latest 7 days.
+One thing to note is that the 1m data is only retrievable for the latest 7 days.On the flip side if you decide to pull at 1 day interval, your dataset could extend to 60 days. I'm still weighing out options and see what's the best course of action.
+
+
+
 Distill is a publication format for scientific and technical writing, native to the web.
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.

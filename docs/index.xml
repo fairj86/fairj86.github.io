@@ -7,21 +7,47 @@
     <description>Stock Prediction through Time Series
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 29 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Yes I have a blog</title>
-      <dc:creator>name:John Fair</dc:creator>
-      <link>https://fairj86.github.io/fairj86.github.io/posts/2021-04-29-yes-i-have-a-blog</link>
+      <title>Creating an API</title>
+      <dc:creator>John Fair</dc:creator>
+      <link>https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-creating-an-api</link>
+      <description>Best way to pull accurate and up-to-date data.</description>
+      <guid>https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-creating-an-api</guid>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-creating-an-api/Capture.png" medium="image" type="image/png" width="596" height="169"/>
+    </item>
+    <item>
+      <title>LSTM Modeling</title>
+      <dc:creator>John Fair</dc:creator>
+      <link>https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-lstm-modeling</link>
       <description>A short description of the post.</description>
+      <guid>https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-lstm-modeling</guid>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://fairj86.github.io/fairj86.github.io/posts/2021-07-14-lstm-modeling/LSTM-1.png" medium="image" type="image/png" width="718" height="686"/>
+    </item>
+    <item>
+      <title>ARIMA Modeling</title>
+      <dc:creator>John Fair</dc:creator>
+      <link>https://fairj86.github.io/fairj86.github.io/posts/2021-07-13-arima-modeling</link>
+      <description>What is ARIMA Model?</description>
+      <guid>https://fairj86.github.io/fairj86.github.io/posts/2021-07-13-arima-modeling</guid>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://fairj86.github.io/fairj86.github.io/posts/2021-07-13-arima-modeling/arima-modeling_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1536" height="768"/>
+    </item>
+    <item>
+      <title>Intro to Senior Project</title>
+      <dc:creator>John Fair</dc:creator>
+      <link>https://fairj86.github.io/fairj86.github.io/posts/2021-04-29-yes-i-have-a-blog</link>
+      <description>Why Python and Stock Predictions?</description>
       <guid>https://fairj86.github.io/fairj86.github.io/posts/2021-04-29-yes-i-have-a-blog</guid>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Welcome to Stock Prediction through Time Series</title>
-      <dc:creator>Nora Jones</dc:creator>
+      <title>Welcome to John Fair's Senior Project</title>
+      <dc:creator>John Fair</dc:creator>
       <link>https://fairj86.github.io/fairj86.github.io/posts/welcome</link>
-      <description>Welcome to our new blog, Stock Prediction through Time Series. We hope you enjoy 
-reading what we have to say!</description>
+      <description>Stock prediction project using python language.</description>
       <guid>https://fairj86.github.io/fairj86.github.io/posts/welcome</guid>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
     </item>

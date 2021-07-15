@@ -8,6 +8,10 @@ output:
     self_contained: false
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
 #ARIMA Modeling
 What is ARIMA Model? 
 
@@ -15,7 +19,7 @@ ARIMA stands for Autoregressive Integrated Moving Average Model. It is a model t
 
 It is a forecasting algorithm that predicts that future value of a stock based on past values of said stock.  
 
- 
+
 
 ARIMA Models can be broken down into three order parameters: (p,d,q), 
 

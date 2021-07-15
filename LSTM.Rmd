@@ -9,6 +9,9 @@ output:
   distill::distill_article:
     self_contained: false
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # LSTM Modeling
 

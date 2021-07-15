@@ -1,13 +1,9 @@
 ---
-title: "Welcome to Stock Prediction through Time Series"
+title: "Welcome to John Fair's Senior Project"
 description: |
-  Welcome to our new blog, Stock Prediction through Time Series. We hope you enjoy 
-  reading what we have to say!
+  Stock prediction project using python language. 
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: John Fair 
 date: 04-29-2021
 output:
   distill::distill_article:
@@ -16,11 +12,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating blogs with Distill at:
-# https://rstudio.github.io/distill/blog.html
-
 ```
 
+# Short Description
+This project is going to span from learning the depths of python language and applying stock
+prediction in a time series. 
 
 
+## Learn more about creating blogs with Distill at:
+https://rstudio.github.io/distill/blog.html
