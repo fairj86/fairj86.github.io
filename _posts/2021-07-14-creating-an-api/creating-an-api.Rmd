@@ -22,11 +22,6 @@ Application Programming Interface (API)- creates a pathway to recall the most up
 
 I'll be answering the following questions along the way: 
 
-#### 1.) How to use Pandas_Datareader to pull stock data? 
-#### 2.) What was the Mean and Standard Deviation of Google stock (Alphabet.Inc)? 
-
- 
-
 ### 1.) How to use Pandas_Datareader to pull stock data? 
 
 We will be using pandas_datareader to pull data from yahoo financial for this project. We will be looking at the data for the last 5 years for Apple, Amazon, Disney, Google, Home Depot, and Walmart. To pull data I used these lines of code: 

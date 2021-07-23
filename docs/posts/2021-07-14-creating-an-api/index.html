@@ -2115,9 +2115,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>In this post we will be looking at data from the stock market. We will be using the python package Pandas’ API, Datareader, to get stock information. Using this data, we will create multiple visuals to investigate different aspects and look at a couple of ways to analyze the risk of said stocks, based on previous performance history. In future posts we will look create ARIMA models and Long Short Term Memory (LSTM) method to predict future stock prices.</p>
 <p>Application Programming Interface (API)- creates a pathway to recall the most up-to-date data from a specific website. When using an API with stock predictions, it updates the data to real time and gives you the current information. Most efficient API’s require user to pay for their use. I investigated an alternative option and found Pandas_Datareader. Pandas_Datareader is a sub package that allows one to create a data frame from various internet data sources, currently including: Yahoo! Finance.</p>
 <p>I’ll be answering the following questions along the way:</p>
-<h4 id="how-to-use-pandas_datareader-to-pull-stock-data">1.) How to use Pandas_Datareader to pull stock data?</h4>
-<h4 id="what-was-the-mean-and-standard-deviation-of-google-stock-alphabet.inc">2.) What was the Mean and Standard Deviation of Google stock (Alphabet.Inc)?</h4>
-<h3 id="how-to-use-pandas_datareader-to-pull-stock-data-1">1.) How to use Pandas_Datareader to pull stock data?</h3>
+<h3 id="how-to-use-pandas_datareader-to-pull-stock-data">1.) How to use Pandas_Datareader to pull stock data?</h3>
 <p>We will be using pandas_datareader to pull data from yahoo financial for this project. We will be looking at the data for the last 5 years for Apple, Amazon, Disney, Google, Home Depot, and Walmart. To pull data I used these lines of code:</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="Capture.PNG" width="100%" style="display: block; margin: auto;" /></p>
@@ -2127,7 +2125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><img src="name.PNG" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <p>The “f” at the beginning of the title tells the code to find the defined component of {name} in this code.</p>
-<h3 id="what-was-the-mean-and-standard-deviation-of-google-stock-alphabet.inc-1">2.) What was the Mean and Standard Deviation of Google stock (Alphabet.Inc)?</h3>
+<h3 id="what-was-the-mean-and-standard-deviation-of-google-stock-alphabet.inc">2.) What was the Mean and Standard Deviation of Google stock (Alphabet.Inc)?</h3>
 <p>For ease, this next section we will be only looking at the stock data for Google which we pulled above. Once that is done, we can create a time series to find out the rolling data for the Mean and Standard Deviation plot.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="Rolling.PNG" width="100%" style="display: block; margin: auto;" /></p>
