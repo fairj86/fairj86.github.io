@@ -23,7 +23,7 @@ ARIMA stands for Autoregressive Integrated Moving Average Model. It is a model t
 
 It is a forecasting algorithm that predicts that future value of a stock based on past values of said stock.  
 
-
+ 
 # ARIMA Parameters
 ARIMA Models can be broken down into three order parameters: (p,d,q), 
 
@@ -31,8 +31,7 @@ AR(p) Autoregression- regression model that utilizes the relationship between a 
 
 I(d) Integration- locates if a trend exists, if so than is non stationary and shows seasonality. This reduces seasonality from a time series.  
 
-MA(q) Moving Average- analyzes how wrong in predicting values for past time-periods and make better estimate for the current time-period.  
-
+MA(q) Moving Average- analyzes how wrong the predicted values for past time-periods are and makes better estimates for the current time-period.  
 
 
 ## How do you setup an ARMIA model? 

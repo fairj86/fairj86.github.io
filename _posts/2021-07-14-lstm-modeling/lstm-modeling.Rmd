@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 ## LSTM Modeling
 
-Long Short-Term Memory or LSTM is special kind of RNN (Recurrent neural network), that is capable of learning long-term dependencies. RNN are link memory loops, they keep repeating over and over to give a new point. The problem with them is the more you repeat the loop the more unstable the points of data will be and create long-term dependency problems. That is where LSTM comes into play. LSTM is designed to avoid the long-term dependency problem because unlike RNN the loop or chain doesn’t have one single neural network layer (like RNNs), but four. In the illustration below we will review over why this makes such a difference. 
+Long Short-Term Memory or LSTM is type of RNN (Recurrent neural network), that handles long-term dependencies. RNN are like memory loops, they keep repeating over and over to give a new point. The problem with them is the more you repeat the loop the more unstable the points of data will be and will create long-term dependency problems. That is where LSTM comes into play. LSTM is designed to avoid the long-term dependency problem because unlike RNN the loops or chains, LSTM doesn’t have one single neural network layer (like RNNs), but four. In the illustration below we will review over why this makes such a difference. 
 
 ```{r, echo = FALSE, fig.align = 'center', out.width ='80%'}
 knitr::include_graphics("LSTM-1.png")
@@ -26,8 +26,9 @@ knitr::include_graphics("LSTM-1.png")
 ```{r, echo = FALSE, fig.align = 'center', out.width ='80%'}
 knitr::include_graphics("LSTM-L.png")
 ```   
+Image source: https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21 
 
-The gates shown above learn which data in a sequence is important and decided to keep or throw away. It will pass the relevant information down the sequences to make the predictions. Therefore, condensing data and removing the outlier that would over populate and cause issues in the predictions.  
+The each of the four gates shown above learn which data in a sequence is important and decides with data points are necessary to keep or throw away. It passes the necessary information down the sequences to make the predictions. Therefore, condensing data and removing the outliers that would overpopulate and cause issues in the predictions.  
 
 ### How to setup LSTM? 
 
